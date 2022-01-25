@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+
+
+* {
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Nanum Myeongjo', serif;
+    color:#fff;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none
+
+}
+
+a{text-decoration: none;}
+
+.wrap{
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.wrap > video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+    
+}
+.wrap h1{
+    position: absolute;
+    font-weight: 300;
+    font-size: 24px;
+    transition: all 0.5s;
+    top:10%;
+}
+.taro_img{
+    position: absolute;
+    width: 250px;
+    height: 430px;
+    top:20%;
+   
+     
+}
+.taro_img img{
+    width: 100%;
+    transition:all 1s;
+    animation: card linear 1.5s infinite;
+
+    height: 100%;
+    box-shadow: 0 0 1rem #fffacd;
+}
+
+.btn{
+    width: 220px;
+    height: 45px;
+    bottom: 13%;
+    transition: 0.5s;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #8879f7, #b362bf);
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.print{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:-5%;
+}
+
+.form .text{
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+    margin-right: 0;
+    margin-top: 50px;
+    background: none;
+    color:#fff;
+    border: 1px solid #fff;
+    outline: none;
+    text-align: center;
+    position: relative;
+}
+
+.print h1{
+    margin-top: 120px;
+}
+.print .text2{
+    position: absolute;
+    display: flex;
+    top:40%;
+}
+.print .text2 h3:nth-child(1){
+    position: relative;
+    left: -160px;
+}
+
+.print .text2 h3:nth-child(2){
+    position: relative;
+    left: 13px;
+}
+
+.print .text2 h3:nth-child(3){
+    position: relative;
+    left: 200px;
+}
+
+.btnlook{
+    width: 220px;
+    height: 45px;
+    bottom: 13%;
+    transition: 0.5s;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #8879f7, #b362bf);
+}
+.btnlook:hover{
+    transform: scale(1.1);
+}
+
+
+/* -------------카드 결과 -------------------*/
+.card_openAll{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.card_open{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+
+.title{
+    top:80px;
+}
+.taro_imgs{
+    position: absolute;
+    width: 250px;
+    height: 360px;
+    top:17%;
+    box-shadow: 0 0 1rem #fffacd;
+    transition:all 1s;
+    animation: card linear 1.5s infinite;
+   
+     
+}
+
+.taro_imgs img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.more{
+    position: absolute;
+    bottom: 22%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.back{  width: 220px;
+    height: 45px;
+    bottom: 12%;
+    transition: 0.5s;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #8879f7, #b362bf);
+}
+
+.back:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+/* 1번 카드 */
+@keyframes card{
+    0%{
+        transform: translateY(0);
+        transition: all 1s;
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
