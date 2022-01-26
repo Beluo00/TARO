@@ -26,14 +26,14 @@
 
 이때 제이쿼리를 사용해서 fadeOut효과를 넣었습니다.
 
-![image-20220126153359529](C:\Users\dltld\AppData\Roaming\Typora\typora-user-images\image-20220126153359529.png)
 
+<img width="1226" alt="2" src="https://user-images.githubusercontent.com/85346880/151122100-309c94af-0259-4d88-8a3e-f709c53c6850.png">
 **두번째.** 생년월일을 입력합니다. 생년월일을 입력한 후 카드 보기를 누르면 자신이 갖고 있는 카드를 보여줍니다.
 
 
 
-![image-20220126153804240](C:\Users\dltld\AppData\Roaming\Typora\typora-user-images\image-20220126153804240.png)
 
+<img width="1155" alt="3" src="https://user-images.githubusercontent.com/85346880/151122129-030f748e-9e4f-4016-936b-116f92ee16e3.png">
 **세번째.** 결과가 나옵니다. 매우 단순하고 간단하죠??
 
 이 결과를 갖고 오기 위해 구현 방법은 html에 0번째 카드부터 21번째 카드의 레이아웃을 작성해줍니다. 
@@ -48,8 +48,8 @@
 
 ### 출처
 
-<img src="C:\Users\dltld\AppData\Roaming\Typora\typora-user-images\image-20220126155030521.png" alt="image-20220126155030521" style="zoom:33%;" />
 
+![4](https://user-images.githubusercontent.com/85346880/151122269-aaecfc6f-69ba-440c-b6f5-9b1fdabc7168.jpg)
 SNS 게시글에 올라온 타로 계산법을 보고 만들어 보았습니다. 
 
 무엇을 만들지 고민하다가 이 게시글을 보게 되어 웹사이트에 적용하면 어떨지 생각하며, 프로젝트를 시행하였습니다.
