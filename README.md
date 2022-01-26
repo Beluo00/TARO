@@ -18,7 +18,7 @@
 
 ### 실행 방법
 
-![image-20220126152806371](C:\Users\dltld\AppData\Roaming\Typora\typora-user-images\image-20220126152806371.png)
+<img width="1123" alt="1" src="https://user-images.githubusercontent.com/85346880/151122067-6c03467d-dbaa-4ce0-961b-d5f5c7e5f821.png">
 
 실행방법은 매우 간단합니다. 
 
