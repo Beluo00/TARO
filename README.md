@@ -14,8 +14,12 @@ demo : https://elegant-babbage-7fe214.netlify.app
 
 재미로 단순하게 만든 프로젝트인 만큼 이 프로젝트를 이용하는 사람들도 단순하고 심플한 재미를 얻어갈 수 있습니다.
 
+### 사용 기술
 
-
+1. HTML
+2. CSS
+3. JAVASCRIPT
+4. PHOTOSHOP
 
 
 ### 실행 방법
